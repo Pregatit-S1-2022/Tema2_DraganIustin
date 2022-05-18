@@ -18,6 +18,10 @@ namespace Tema2
                 Console.WriteLine($"Your area is: {newArea} m2 and is greater than {area}. Your area will set automatically to {area}");
                 newArea = area;
             }
+            else
+            {
+                Console.WriteLine($"My area is: {newArea} m2 ");
+            }
         }
     }
 }

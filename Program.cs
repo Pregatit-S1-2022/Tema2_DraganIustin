@@ -18,6 +18,7 @@ namespace Tema2
 
             SmallApartment myApartment = new SmallApartment();
             Person myPerson = new Person("Iustin");
+            myApartment.door = new House.Door(" red");
             myPerson.house = myApartment;
             myPerson.ShowData();
 

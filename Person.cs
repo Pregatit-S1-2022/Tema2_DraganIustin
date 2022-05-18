@@ -18,7 +18,7 @@ namespace Tema2
 
         public void ShowData()
         {
-            Console.WriteLine($"A person with {name} have a house.");
+            Console.WriteLine($"A person with name {name} have a house.");
             Console.WriteLine("Data of house: ");
             house.ShowData();
             Console.WriteLine("Data of door: ");
